@@ -1,0 +1,76 @@
+/*@import url("../fonts/fonts.css");*/
+*{ margin: 0; padding: 0; }
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{ margin: 0; padding: 0; }
+table{ border-collapse: collapse; border-spacing: 0; }
+fieldset, img{ border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var{ font-style: normal; font-weight: normal; }
+ol, ul, li{ list-style: none; display:inline; }
+caption, th{ text-align: left; }
+q:before, q:after{ content: ""; }
+abbr, acronym{ border: 0; }
+article, aside, figure, footer, header, nav, section{ display:block; }
+a:hover, a:active, a:focus{ color:#aeaeae; text-decoration:none; }
+img, a{ margin:0; padding:0; outline:none !important; max-width: 100%; height: auto; }
+img:hover{ /*opacity: 0.7;*/ }
+.img_holder{ height:auto; width:100%; border-radius: 0; overflow: hidden; }
+.no_pad{ padding-left: 0; padding-right: 0; }
+*:focus{ outline: none; }
+.page_wrap{	width:90%; margin:0 auto; }
+.sec{ width:100%; padding:70px 0; }
+.owl-carousel{ direction: ltr; }
+section div *:last-child{margin-bottom: 0;}
+::-webkit-input-placeholder{ /* Chrome/Opera/Safari */ color: #767676; }
+::-moz-placeholder{ /* Firefox 19+ */ color: #767676; opacity: 1; }
+:-moz-placeholder{ /* Firefox 18- */ color: #767676; opacity: 1; }
+:-ms-input-placeholder{ /* IE 10+ */ color: #767676; }
+/* For Bootstrap */
+.navbar{ border:none; border-radius:0; margin:0; }
+.nav > li > a:focus, .nav > li > a:hover{ background-color:transparent; }
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{ background-color: transparent; border-color: transparent; }
+.navbar-toggle{ background-color: #ccc; }
+.navbar .navbar-nav li.active a{ color: #333; }
+.navbar .navbar-header .icon-bar{ background-color: #fff; }
+/* END - For Bootstrap */
+body{ font-style:normal; font-variant:normal; font-weight:normal; font-size:14px; line-height:normal; font-family: Arial, sans-serif; color: #333;
+background-color: #FFF; /* background: #FFF url("../images/bg.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;	background-size: cover;*/}
+h1{	font-size:40px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+h2{	font-size:35px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+h3{	font-size:30px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+h4{	font-size:25px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+h5{	font-size:20px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+h6{	font-size:16px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+p{ font-size:18px; font-weight:normal; line-height:normal; font-style:normal; font-variant:normal; font-family:Arial; color: #333; }
+span{ font-size:14px; font-weight:normal; line-height:normal; font-style:normal; font-variant:normal; font-family:Arial; color: #333; }
+li{	font-size:14px; font-weight:normal;	line-height:normal; font-style:normal; font-variant:normal;	font-family:Arial; color: #333; }
+a{ font-size:14px; font-weight:normal; line-height:normal; font-style:normal; font-variant:normal; font-family:Arial; color: #333; text-decoration:none; transition:all 1s ease 0s; cursor: pointer; }
+
+section{padding: 70px 0;}
+section h3{margin-bottom: 15px;}
+section h5{margin-bottom: 30px;}
+section input[type="text"]{padding:7px; margin-bottom: 30px;}
+section p{margin-bottom: 15px;}
+section p:last-child{margin-bottom: 0;}
+
+/* Media Queries */
+@media (max-width: 1280px) and (min-width: 1024px){
+
+}
+@media (max-width: 1023px) and (min-width: 992px){
+
+}
+@media (max-width: 991px){
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 577px){
+
+}
+@media (max-width:375px)
+{
+
+}
+@media (max-width:320px){
+
+}
