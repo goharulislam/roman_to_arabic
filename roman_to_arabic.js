@@ -2,7 +2,7 @@ let i = 0, str1 = "", str2 = "", str3 = "", str4 = "", num = 0, pre = 0, curr = 
 let btn1 = document.getElementById("convert");
 let map_arabic = ["&\#1632;","&\#1633;","&\#1634;","&\#1635;","&\#1636;","&\#1637;","&\#1638;","&\#1639;","&\#1640;","&\#1641;"];
 
-function getArabicNumbers(str3)
+function numToArabicNumber(str3)
 {
 
     str4 = "";
@@ -60,6 +60,6 @@ btn1.addEventListener('click', function( event ){
     str2 = roman_to_Int(str1);
 
     document.getElementById("number").innerHTML = "Roman numeric input: "+ str1;
-    document.getElementById("arabic").innerHTML = "Converted Arabic number: "+ getArabicNumbers(str2);
+    document.getElementById("arabic").innerHTML = "Converted Arabic number: "+ numToArabicNumber(str2);
 
 });
